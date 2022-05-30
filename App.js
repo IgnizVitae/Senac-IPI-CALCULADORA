@@ -19,7 +19,7 @@ export default function App() {
     // Faz ação referente tecla pressionada
     switch(operator){
       case '+':
-        setCurrentNumber((fistNumber + lastNumber).toString())
+        setCurrentNumber((fistNumber + lastNumber).toString()) 
         return
       case '-': 
         setCurrentNumber((fistNumber - lastNumber).toString())
@@ -28,7 +28,7 @@ export default function App() {
         setCurrentNumber((fistNumber * lastNumber).toString())
         return
       case '/': 
-        setCurrentNumber((fistNumber - lastNumber).toString()) 
+        setCurrentNumber((fistNumber - lastNumber).toString())  
         return
     }
   }
